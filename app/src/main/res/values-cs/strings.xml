@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start">Zapnout</string>
+    <string name="stop">Zastavit</string>
+    <string name="alarm">Alarm</string>
+    <string name="alarm_desc">Rozezvoň alarm, když vyprší časovač</string>
+    <string name="alarm_sound">Zvuk alarmu</string>
+</resources>
