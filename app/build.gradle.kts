@@ -26,6 +26,7 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.ksp)
     id("com.example.kmp.extractor")
+    id("com.example.kmp.kmp-migration")
 }
 
 tasks.withType(Test::class) {
