@@ -19,6 +19,7 @@ dependencies {
     implementation(kotlin("stdlib"))
     // 模板里使用了 Gson，如果你的插件需要，可保留
     implementation("com.google.code.gson:gson:2.10.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
 }
 
 gradlePlugin {
