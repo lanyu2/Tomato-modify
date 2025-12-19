@@ -8,6 +8,7 @@ import org.gradle.api.DefaultTask
 import org.gradle.api.tasks.TaskAction
 import java.io.File
 
+
 abstract class MigratabilityTask : DefaultTask() {
     init {
         // 直接在任务类里设置，注册时不用额外 lambda
