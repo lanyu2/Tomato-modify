@@ -1,5 +1,8 @@
 package com.example.kmp.kmpextractor.classifier
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 enum class AndroidUsageKind {
     STORAGE,    // 存储 (SharedPrefs, Room)
     LOGGING,    // 日志 (android.util.Log)

@@ -1,1299 +1,1354 @@
 [ANDROID_ONLY] src\androidMain\kotlin\logic\logic_code\play\java\org\nsh07\pomodoro\billing\initializePurchases.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\logic_code\play\java\org\nsh07\pomodoro\billing\PlayBillingManager.kt
   Android usages: [LOGGING]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Kermit 或 Napier 日志库
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\logic_code\play\java\org\nsh07\pomodoro\billing\initializePurchases.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\logic_code\play\java\org\nsh07\pomodoro\billing\PlayBillingManager.kt
   Android usages: [LOGGING]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Kermit 或 Napier 日志库
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\logic_code\play\java\org\nsh07\pomodoro\billing\initializePurchases.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\logic_code\play\java\org\nsh07\pomodoro\billing\PlayBillingManager.kt
   Android usages: [LOGGING]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Kermit 或 Napier 日志库
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidTest\java\org\nsh07\pomodoro\ExampleInstrumentedTest.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\foss\java\org\nsh07\pomodoro\billing\initializePurchases.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\AppDatabase.kt
   Android usages: [STORAGE, UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\Converters.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\Preference.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\PreferenceDao.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\Stat.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\StatDao.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\service\AddActions.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\service\ServiceHelper.kt
   Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
-[COMMON_READY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\TomatoApplication.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\TomatoApplication.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\play\java\org\nsh07\pomodoro\billing\initializePurchases.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\play\java\org\nsh07\pomodoro\billing\PlayBillingManager.kt
   Android usages: [LOGGING]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Kermit 或 Napier 日志库
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\androidTest\java\org\nsh07\pomodoro\ExampleInstrumentedTest.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\foss\java\org\nsh07\pomodoro\billing\initializePurchases.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\AppDatabase.kt
   Android usages: [STORAGE, UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\Converters.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\Preference.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\PreferenceDao.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\Stat.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\StatDao.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\service\AddActions.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\service\ServiceHelper.kt
   Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
-[COMMON_READY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\TomatoApplication.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\TomatoApplication.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\play\java\org\nsh07\pomodoro\billing\initializePurchases.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\androidMain\kotlin\logic\src\play\java\org\nsh07\pomodoro\billing\PlayBillingManager.kt
   Android usages: [LOGGING]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Kermit 或 Napier 日志库
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\androidTest\java\org\nsh07\pomodoro\ExampleInstrumentedTest.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\foss\java\org\nsh07\pomodoro\billing\initializePurchases.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\AppDatabase.kt
   Android usages: [STORAGE, UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\Converters.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\Preference.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\PreferenceDao.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\Stat.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\StatDao.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\service\AddActions.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\service\ServiceHelper.kt
   Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
-[COMMON_READY] src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\TomatoApplication.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\TomatoApplication.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\logic\src\play\java\org\nsh07\pomodoro\billing\initializePurchases.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [MIGRATABLE] src\androidMain\kotlin\logic\src\play\java\org\nsh07\pomodoro\billing\PlayBillingManager.kt
   Android usages: [LOGGING]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Kermit 或 Napier 日志库
 
 
-[MIGRATABLE] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\foss\java\org\nsh07\pomodoro\billing\TomatoPlusPaywallDialog.kt
-  Android usages: [THREADING]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
-  * 使用 kotlinx.coroutines 实现跨平台并发
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\foss\java\org\nsh07\pomodoro\billing\TomatoPlusPaywallDialog.kt
+  Android usages: [THREADING, RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\foss\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutButtons.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\foss\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutButtons.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\data\AppContainer.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
-[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\data\TimerRepository.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+[MIGRATABLE] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\data\TimerRepository.kt
+  Android usages: [STATE]
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
+  * 使用官方 AndroidX Lifecycle KMP 版 (ViewModel)
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\MainActivity.kt
   Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\service\TimerService.kt
-  Android usages: [TIME, UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [TIME, UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\AlwaysOnDisplay.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\AppScreen.kt
   Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\Screen.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutCard.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ClickableListItem.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ColorSchemePickerListItem.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ColorSchemePickerListItem.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\LocaleBottomSheet.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\MinuteInputField.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\MinutesTransformation.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\PlusDivider.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\PlusPromo.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\PlusPromo.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ThemePickerListItem.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ThemePickerListItem.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\screens\AlarmSettings.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\screens\AppearanceSettings.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\screens\AppearanceSettings.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\screens\TimerSettings.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\SettingsScreen.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, STATE, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\SettingsSwitchItem.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\viewModel\SettingsAction.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\viewModel\SettingsState.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\viewModel\SettingsViewModel.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+[MIGRATABLE] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\viewModel\SettingsViewModel.kt
+  Android usages: [STATE]
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
+  * 使用官方 AndroidX Lifecycle KMP 版 (ViewModel)
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\ProductivityGraph.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\ProductivityGraph.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\StatsScreen.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [STATE, RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\TimeColumnChart.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\TimeLineChart.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\viewModel\StatsViewModel.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+[MIGRATABLE] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\viewModel\StatsViewModel.kt
+  Android usages: [STATE]
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
+  * 使用官方 AndroidX Lifecycle KMP 版 (ViewModel)
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\theme\Color.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\theme\Shape.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\theme\Theme.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\theme\Type.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\theme\Type.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\AlarmDialog.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\AlarmDialog.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\TimerScreen.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
-[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\viewModel\TimerViewModel.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+[MIGRATABLE] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\viewModel\TimerViewModel.kt
+  Android usages: [STATE]
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
+  * 使用官方 AndroidX Lifecycle KMP 版 (ViewModel)
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\utils\Utils.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\play\java\org\nsh07\pomodoro\billing\TomatoPlusPaywallDialog.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\play\java\org\nsh07\pomodoro\billing\TomatoPlusPaywallDialog.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\play\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutButtons.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\play\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutButtons.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[MIGRATABLE] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\foss\java\org\nsh07\pomodoro\billing\TomatoPlusPaywallDialog.kt
-  Android usages: [THREADING]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
-  * 使用 kotlinx.coroutines 实现跨平台并发
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\foss\java\org\nsh07\pomodoro\billing\TomatoPlusPaywallDialog.kt
+  Android usages: [THREADING, RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\foss\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutButtons.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\foss\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutButtons.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\data\AppContainer.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
-[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\data\TimerRepository.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+[MIGRATABLE] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\data\TimerRepository.kt
+  Android usages: [STATE]
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
+  * 使用官方 AndroidX Lifecycle KMP 版 (ViewModel)
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\MainActivity.kt
   Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\service\TimerService.kt
-  Android usages: [TIME, UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [TIME, UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\AlwaysOnDisplay.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\AppScreen.kt
   Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\Screen.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutCard.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ClickableListItem.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ColorSchemePickerListItem.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ColorSchemePickerListItem.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\LocaleBottomSheet.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\MinuteInputField.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\MinutesTransformation.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\PlusDivider.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\PlusPromo.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\PlusPromo.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ThemePickerListItem.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ThemePickerListItem.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\screens\AlarmSettings.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\screens\AppearanceSettings.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\screens\AppearanceSettings.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\screens\TimerSettings.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\SettingsScreen.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, STATE, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\SettingsSwitchItem.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\viewModel\SettingsAction.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\viewModel\SettingsState.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\viewModel\SettingsViewModel.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+[MIGRATABLE] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\viewModel\SettingsViewModel.kt
+  Android usages: [STATE]
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
+  * 使用官方 AndroidX Lifecycle KMP 版 (ViewModel)
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\ProductivityGraph.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\ProductivityGraph.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\StatsScreen.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [STATE, RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\TimeColumnChart.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\TimeLineChart.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\viewModel\StatsViewModel.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+[MIGRATABLE] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\viewModel\StatsViewModel.kt
+  Android usages: [STATE]
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
+  * 使用官方 AndroidX Lifecycle KMP 版 (ViewModel)
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\theme\Color.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\theme\Shape.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\theme\Theme.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\theme\Type.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\theme\Type.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\AlarmDialog.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\AlarmDialog.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\TimerScreen.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
-[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\viewModel\TimerViewModel.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+[MIGRATABLE] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\viewModel\TimerViewModel.kt
+  Android usages: [STATE]
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
+  * 使用官方 AndroidX Lifecycle KMP 版 (ViewModel)
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\utils\Utils.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\play\java\org\nsh07\pomodoro\billing\TomatoPlusPaywallDialog.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\play\java\org\nsh07\pomodoro\billing\TomatoPlusPaywallDialog.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\play\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutButtons.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\androidMain\kotlin\ui\src\play\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutButtons.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[MIGRATABLE] src\androidMain\kotlin\ui\src\foss\java\org\nsh07\pomodoro\billing\TomatoPlusPaywallDialog.kt
-  Android usages: [THREADING]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
-  * 使用 kotlinx.coroutines 实现跨平台并发
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\foss\java\org\nsh07\pomodoro\billing\TomatoPlusPaywallDialog.kt
+  Android usages: [THREADING, RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\foss\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutButtons.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\foss\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutButtons.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\data\AppContainer.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
-[ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\data\TimerRepository.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+[MIGRATABLE] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\data\TimerRepository.kt
+  Android usages: [STATE]
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
+  * 使用官方 AndroidX Lifecycle KMP 版 (ViewModel)
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\MainActivity.kt
   Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\service\TimerService.kt
-  Android usages: [TIME, UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [TIME, UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\AlwaysOnDisplay.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\AppScreen.kt
   Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\Screen.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutCard.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ClickableListItem.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ColorSchemePickerListItem.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ColorSchemePickerListItem.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\LocaleBottomSheet.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\MinuteInputField.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\MinutesTransformation.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\PlusDivider.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\PlusPromo.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\PlusPromo.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ThemePickerListItem.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ThemePickerListItem.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\screens\AlarmSettings.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\screens\AppearanceSettings.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\screens\AppearanceSettings.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\screens\TimerSettings.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\SettingsScreen.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, STATE, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\SettingsSwitchItem.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\viewModel\SettingsAction.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\viewModel\SettingsState.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\viewModel\SettingsViewModel.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+[MIGRATABLE] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\settingsScreen\viewModel\SettingsViewModel.kt
+  Android usages: [STATE]
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
+  * 使用官方 AndroidX Lifecycle KMP 版 (ViewModel)
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\ProductivityGraph.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\ProductivityGraph.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\StatsScreen.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [STATE, RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\TimeColumnChart.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\TimeLineChart.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\viewModel\StatsViewModel.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+[MIGRATABLE] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\statsScreen\viewModel\StatsViewModel.kt
+  Android usages: [STATE]
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
+  * 使用官方 AndroidX Lifecycle KMP 版 (ViewModel)
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\theme\Color.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\theme\Shape.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\theme\Theme.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\theme\Type.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\theme\Type.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\AlarmDialog.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\AlarmDialog.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\TimerScreen.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
-[ANDROID_ONLY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\viewModel\TimerViewModel.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+[MIGRATABLE] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\viewModel\TimerViewModel.kt
+  Android usages: [STATE]
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
+  * 使用官方 AndroidX Lifecycle KMP 版 (ViewModel)
 
 
 [COMMON_READY] src\androidMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\utils\Utils.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\play\java\org\nsh07\pomodoro\billing\TomatoPlusPaywallDialog.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\play\java\org\nsh07\pomodoro\billing\TomatoPlusPaywallDialog.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[COMMON_READY] src\androidMain\kotlin\ui\src\play\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutButtons.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\androidMain\kotlin\ui\src\play\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutButtons.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\androidTest\java\org\nsh07\pomodoro\ExampleInstrumentedTest.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [COMMON_READY] src\commonMain\kotlin\logic\src\commonMain\kotlin\logic\src\commonMain\kotlin\logic\src\foss\java\org\nsh07\pomodoro\billing\FossBillingManager.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\commonMain\kotlin\logic\src\commonMain\kotlin\logic\src\commonMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\billing\BillingManager.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [ANDROID_ONLY] src\commonMain\kotlin\logic\src\commonMain\kotlin\logic\src\commonMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\PreferenceRepository.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\commonMain\kotlin\logic\src\commonMain\kotlin\logic\src\commonMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\StatRepository.kt
   Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [COMMON_READY] src\commonMain\kotlin\logic\src\commonMain\kotlin\logic\src\commonMain\kotlin\logic\src\test\java\org\nsh07\pomodoro\utils\UtilsKtTest.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\commonMain\kotlin\logic\src\commonMain\kotlin\logic\src\foss\java\org\nsh07\pomodoro\billing\FossBillingManager.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\commonMain\kotlin\logic\src\commonMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\billing\BillingManager.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [ANDROID_ONLY] src\commonMain\kotlin\logic\src\commonMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\PreferenceRepository.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\commonMain\kotlin\logic\src\commonMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\StatRepository.kt
   Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [COMMON_READY] src\commonMain\kotlin\logic\src\commonMain\kotlin\logic\src\test\java\org\nsh07\pomodoro\utils\UtilsKtTest.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\commonMain\kotlin\logic\src\foss\java\org\nsh07\pomodoro\billing\FossBillingManager.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\commonMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\billing\BillingManager.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [ANDROID_ONLY] src\commonMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\PreferenceRepository.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\commonMain\kotlin\logic\src\main\java\org\nsh07\pomodoro\data\StatRepository.kt
   Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [COMMON_READY] src\commonMain\kotlin\logic\src\test\java\org\nsh07\pomodoro\utils\UtilsKtTest.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[COMMON_READY] src\commonMain\kotlin\ui\src\commonMain\kotlin\ui\src\commonMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\Navigation.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\commonMain\kotlin\ui\src\commonMain\kotlin\ui\src\commonMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\Navigation.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [COMMON_READY] src\commonMain\kotlin\ui\src\commonMain\kotlin\ui\src\commonMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\viewModel\TimerAction.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\commonMain\kotlin\ui\src\commonMain\kotlin\ui\src\commonMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\viewModel\TimerState.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[COMMON_READY] src\commonMain\kotlin\ui\src\commonMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\Navigation.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\commonMain\kotlin\ui\src\commonMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\Navigation.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [COMMON_READY] src\commonMain\kotlin\ui\src\commonMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\viewModel\TimerAction.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\commonMain\kotlin\ui\src\commonMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\viewModel\TimerState.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[COMMON_READY] src\commonMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\Navigation.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\commonMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\Navigation.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [COMMON_READY] src\commonMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\viewModel\TimerAction.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\commonMain\kotlin\ui\src\main\java\org\nsh07\pomodoro\ui\timerScreen\viewModel\TimerState.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\foss\java\org\nsh07\pomodoro\billing\FossBillingManager.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [ANDROID_ONLY] src\foss\java\org\nsh07\pomodoro\billing\initializePurchases.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
-[MIGRATABLE] src\foss\java\org\nsh07\pomodoro\billing\TomatoPlusPaywallDialog.kt
-  Android usages: [THREADING]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
-  * 使用 kotlinx.coroutines 实现跨平台并发
+[ANDROID_ONLY] src\foss\java\org\nsh07\pomodoro\billing\TomatoPlusPaywallDialog.kt
+  Android usages: [THREADING, RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[COMMON_READY] src\foss\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutButtons.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\foss\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutButtons.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [COMMON_READY] src\main\java\org\nsh07\pomodoro\billing\BillingManager.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\data\AppContainer.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\data\AppDatabase.kt
   Android usages: [STORAGE, UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [MIGRATABLE] src\main\java\org\nsh07\pomodoro\data\Converters.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [MIGRATABLE] src\main\java\org\nsh07\pomodoro\data\Preference.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [MIGRATABLE] src\main\java\org\nsh07\pomodoro\data\PreferenceDao.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\data\PreferenceRepository.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [MIGRATABLE] src\main\java\org\nsh07\pomodoro\data\Stat.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [MIGRATABLE] src\main\java\org\nsh07\pomodoro\data\StatDao.kt
   Android usages: [STORAGE]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Multiplatform-Settings 或 SQLDelight 数据库
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\data\StatRepository.kt
   Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
-[ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\data\TimerRepository.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+[MIGRATABLE] src\main\java\org\nsh07\pomodoro\data\TimerRepository.kt
+  Android usages: [STATE]
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
+  * 使用官方 AndroidX Lifecycle KMP 版 (ViewModel)
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\MainActivity.kt
   Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\service\AddActions.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\service\ServiceHelper.kt
   Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\service\TimerService.kt
-  Android usages: [TIME, UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [TIME, UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
-[COMMON_READY] src\main\java\org\nsh07\pomodoro\TomatoApplication.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\TomatoApplication.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\AlwaysOnDisplay.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\AppScreen.kt
   Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
-[COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\Navigation.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\Navigation.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\Screen.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutCard.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ClickableListItem.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ColorSchemePickerListItem.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ColorSchemePickerListItem.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\LocaleBottomSheet.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\MinuteInputField.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\MinutesTransformation.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\PlusDivider.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\PlusPromo.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\PlusPromo.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ThemePickerListItem.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\components\ThemePickerListItem.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\screens\AlarmSettings.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
-[COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\screens\AppearanceSettings.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\screens\AppearanceSettings.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\screens\TimerSettings.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\SettingsScreen.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, STATE, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\SettingsSwitchItem.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\viewModel\SettingsAction.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\viewModel\SettingsState.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\viewModel\SettingsViewModel.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+[MIGRATABLE] src\main\java\org\nsh07\pomodoro\ui\settingsScreen\viewModel\SettingsViewModel.kt
+  Android usages: [STATE]
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
+  * 使用官方 AndroidX Lifecycle KMP 版 (ViewModel)
 
 
-[COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\statsScreen\ProductivityGraph.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\statsScreen\ProductivityGraph.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\statsScreen\StatsScreen.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [STATE, RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\statsScreen\TimeColumnChart.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\statsScreen\TimeLineChart.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\statsScreen\viewModel\StatsViewModel.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+[MIGRATABLE] src\main\java\org\nsh07\pomodoro\ui\statsScreen\viewModel\StatsViewModel.kt
+  Android usages: [STATE]
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
+  * 使用官方 AndroidX Lifecycle KMP 版 (ViewModel)
 
 
 [COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\theme\Color.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\theme\Shape.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\theme\Theme.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
-[COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\theme\Type.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\theme\Type.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\timerScreen\AlarmDialog.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\timerScreen\AlarmDialog.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\timerScreen\TimerScreen.kt
-  Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  Android usages: [UI, RESOURCES]
+  - 使用了不可平替的 Android API: [UI, RESOURCES]
 
 
 [COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\timerScreen\viewModel\TimerAction.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [COMMON_READY] src\main\java\org\nsh07\pomodoro\ui\timerScreen\viewModel\TimerState.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
-[ANDROID_ONLY] src\main\java\org\nsh07\pomodoro\ui\timerScreen\viewModel\TimerViewModel.kt
-  Android usages: [UI, STATE]
-  - 包含不可平替的 UI/系统组件: [UI]
+[MIGRATABLE] src\main\java\org\nsh07\pomodoro\ui\timerScreen\viewModel\TimerViewModel.kt
+  Android usages: [STATE]
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
+  * 使用官方 AndroidX Lifecycle KMP 版 (ViewModel)
 
 
 [COMMON_READY] src\main\java\org\nsh07\pomodoro\utils\Utils.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API
 
 
 [ANDROID_ONLY] src\play\java\org\nsh07\pomodoro\billing\initializePurchases.kt
   Android usages: [UI]
-  - 包含不可平替的 UI/系统组件: [UI]
+  - 使用了不可平替的 Android API: [UI]
 
 
 [MIGRATABLE] src\play\java\org\nsh07\pomodoro\billing\PlayBillingManager.kt
   Android usages: [LOGGING]
-  - 所有 Android 依赖均有成熟的 KMP 平替方案
+  - 所有 Android 依赖项均有已知的 KMP 平替方案
+  Suggested KMP Replacements:
   * 使用 Kermit 或 Napier 日志库
 
 
-[COMMON_READY] src\play\java\org\nsh07\pomodoro\billing\TomatoPlusPaywallDialog.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\play\java\org\nsh07\pomodoro\billing\TomatoPlusPaywallDialog.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
-[COMMON_READY] src\play\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutButtons.kt
-  Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+[ANDROID_ONLY] src\play\java\org\nsh07\pomodoro\ui\settingsScreen\components\AboutButtons.kt
+  Android usages: [RESOURCES]
+  - 使用了不可平替的 Android API: [RESOURCES]
 
 
 [COMMON_READY] src\test\java\org\nsh07\pomodoro\utils\UtilsKtTest.kt
   Android usages: []
-  - 未检测到 Android 依赖，可直接迁移
+  - 未检测到 Android 特定 API

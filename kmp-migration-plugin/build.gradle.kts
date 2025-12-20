@@ -4,6 +4,7 @@ plugins {
     `kotlin-dsl`
     `java-gradle-plugin`
     `maven-publish`
+    kotlin("plugin.serialization") version "2.2.0"
 }
 
 group = "com.example.kmp"
