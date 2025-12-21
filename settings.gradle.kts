@@ -8,6 +8,7 @@ pluginManagement {
 //                新增自定义Gradle插件
                 includeBuild("gradle-kmp-extractor-plugin")
                 includeBuild("kmp-migration-plugin")
+                includeBuild("kmp-adaptation-plugin")
             }
         }
         mavenCentral()

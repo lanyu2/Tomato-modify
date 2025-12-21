@@ -27,6 +27,7 @@ plugins {
     alias(libs.plugins.ksp)
     id("com.example.kmp.extractor")
     id("com.example.kmp.kmp-migration")
+    id("com.example.kmp-adaptation")
 }
 
 tasks.withType(Test::class) {
