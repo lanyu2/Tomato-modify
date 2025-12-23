@@ -95,7 +95,28 @@ class KotlinAnalyzer {
                         // 扫描初始化块
                         decl.getAnonymousInitializers().forEach { scanBody(it.body) }
 
-                        NodeKind.CLASS
+                        // 扫描类体内的属性和方法（如果需要深度扫描可以加，目前逻辑似乎只看顶层依赖）
+                        // 注意：目前的架构是扁平的，这里可能不需要递归扫描内部类，
+                        // 但如果类内部有成员属性初始化引用了其他类，最好也扫描一下 body
+                        // (原代码似乎只扫描了 init 块)
+                        // -------------------------------------------------
+
+                        // 2. 细化具体的类型判断
+                        when {
+                            // 判断是否为 Object (包括 companion object)
+                            decl is KtObjectDeclaration -> NodeKind.OBJECT
+
+                            // 判断是否为 KtClass (包含 class, interface, enum, annotation class)
+                            decl is KtClass -> when {
+                                decl.isInterface() -> NodeKind.INTERFACE
+                                decl.isData() -> NodeKind.DATA_CLASS
+                                decl.isEnum() -> NodeKind.ENUM_CLASS
+                                else -> NodeKind.CLASS // 普通 class
+                            }
+
+                            // 兜底
+                            else -> NodeKind.CLASS
+                        }
                     }
                     else -> NodeKind.UNKNOWN
                 }
