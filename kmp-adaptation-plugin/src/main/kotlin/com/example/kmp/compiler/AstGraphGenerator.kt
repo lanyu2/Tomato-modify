@@ -13,15 +13,15 @@ class AstGraphGenerator(private val outputDir: File) {
         if (!outputFile.parentFile.exists()) {
             outputFile.parentFile.mkdirs()
         }
-
+        // 2. 初始化 DOT 文件头
         val sb = StringBuilder()
-        sb.append("digraph AST {\n")
+        sb.append("digraph AST {\n")// 定义这是一个有向图
         sb.append("  rankdir=TB;\n") // 从上到下布局
         sb.append("  node [shape=box, style=filled, color=\"#dddddd\", fontname=\"Verdana\"];\n")
 
-        // 递归构建节点和边
+        // 递归构建节点和边，开始递归遍历
         visitNode(ktFile, sb)
-
+        // 4. 收尾并写入硬盘
         sb.append("}\n")
 
         outputFile.writeText(sb.toString())

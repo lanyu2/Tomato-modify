@@ -17,5 +17,6 @@ class DependencyClassifier {
             }
 
             AnalysisResult(node, type)
+
         }
 }
