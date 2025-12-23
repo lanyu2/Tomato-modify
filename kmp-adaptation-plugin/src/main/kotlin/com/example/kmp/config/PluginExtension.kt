@@ -5,7 +5,7 @@ open class PluginExtension {
     /**
      * 要扫描的源码目录（相对于 projectDir）
      */
-    var sourceDir: String = "src/main/java"
+    var sourceDir: String = ""
 
     /**
      * 输出目录（相对于 buildDir）

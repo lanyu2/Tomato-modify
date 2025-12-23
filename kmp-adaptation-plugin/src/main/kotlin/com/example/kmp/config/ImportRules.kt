@@ -77,6 +77,27 @@ object ImportRules {
         "org.intellij.lang.annotations."
     )
 
+    // 新增：明确属于 UI 的包路径
+    private val uiPackages = listOf(
+        // Android 原生 UI
+        "android.view.",
+        "android.widget.",
+        "android.app.",          // Activity, Fragment, Dialog
+        "androidx.appcompat.",
+        "androidx.fragment.",
+        "androidx.constraintlayout.",
+        "androidx.recyclerview.",
+        "androidx.viewpager.",
+        "com.google.android.material.",
+
+        // Compose UI (如果项目混合了 Compose)
+        "androidx.compose.ui.",
+        "androidx.compose.foundation.",
+        "androidx.compose.material",
+        "androidx.compose.runtime.Composable" // 包含 @Composable 注解
+    )
+
+
     fun isAndroid(pkg: String): Boolean =
         androidPackages.any { pkg.startsWith(it) }
 
@@ -86,6 +107,9 @@ object ImportRules {
     fun isAdaptableJava(pkg: String): Boolean =
         adaptableJavaPackages.any { pkg.startsWith(it) }
 
+    // 新增：检查是否是 UI 相关的包
+    fun isUI(pkg: String): Boolean =
+        uiPackages.any { pkg.startsWith(it) }
 
 /*    val androidPackages = listOf(
         "android.",

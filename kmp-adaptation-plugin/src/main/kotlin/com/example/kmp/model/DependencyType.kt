@@ -1,8 +1,12 @@
 package com.example.kmp.model
 
 enum class DependencyType {
-    COMMON,             // 纯 Kotlin/KMP 代码，可放 commonMain
-    ADAPTABLE_JAVA,     // 包含 java.util 等，稍作修改可放 commonMain
-    JAVA_PLATFORM,      // 包含 java.io/net，建议放 jvmMain 或寻找 KMP 替代品
-    ANDROID_PLATFORM    // 包含 android.*，必须放 androidMain 或使用 expect/actual
+    COMMON_LOGIC,       // 纯 Kotlin 逻辑 (Domain, Utils) -> commonMain
+    COMMON_UI,          // Compose Multiplatform UI -> commonMain
+
+    ANDROID_LOGIC,      // 依赖 Context, Sensor, WorkManager 等系统能力 -> androidMain
+    ANDROID_UI,         // 依赖 View, Activity, Fragment, 或 Android 专用 Compose -> androidMain
+
+    JAVA_PLATFORM,      // 依赖 java.io/net 等 -> jvmMain/androidMain 或需替换
+    ADAPTABLE_JAVA      // 可适配的 Java 代码 -> commonMain
 }
